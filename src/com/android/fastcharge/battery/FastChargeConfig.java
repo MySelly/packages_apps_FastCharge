@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.res.Resources;
 
 import com.android.fastcharge.utils.FileUtils;
+import com.android.fastcharge.R;
 
 public class FastChargeConfig {
 
@@ -45,7 +46,7 @@ public class FastChargeConfig {
 
 	Resources res = context.getResources();
 
-	config_FastChargePath = res.getString(com.android.settingslib.collapsingtoolbar.R.string.config_FastChargePath);
+	config_FastChargePath = context.getString(R.string.config_FastChargePath);
     }
 
     public String getFastChargePath() {

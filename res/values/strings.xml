@@ -20,4 +20,5 @@
     <string name="fast_charging_title">Fast Charging</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <string name="fast_charging_summary_not_supported">Fast Charging is currently not supported by the kernel</string>
+    <string name="config_FastChargePath">/sys/class/power_supply/battery/fast_charge</string>
 </resources>
